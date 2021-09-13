@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <meta name=viewport content='width=700'>  <title>Online Store</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/animate.css">
+ <!-- link for icons-->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body onload="render()">
+
+  <header>
+    <nav class="orange accent-4">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo m-l-2"> <i style="font-size:3rem!important;"
+            class="material-icons">store</i>xiaomi Online Store </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="cart.html">Shopping Cart <span id="cart_n"></span></a></li>
+          <li><a class="modal-trigger" href="#modal1">Admin</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+   
+    <div style="height:500Px!important;"class="carousel carousel-slider center black">
+	<div class="carousel-fixed-item center">
+	</div>
+	<div class="carousel-item amber white-text">
+	  <img style="height:500px!important;" src="img/Xiaomi Redmi Note 8.jpg" alt="">
+	</div>
+	<div class="carousel-item red white-text">
+	  <img style="height:500px!important;" src="img/Xiaomi-9.jpg" alt="">
+	</div>
+	<div class="carousel-item green white-text">
+	  <img style="height:500px!important;" src="img/xiaomi_logo.jpg" alt="">
+	</div>
+</div>
+      <br>
+    <div class="container">
+      <h2 id="phons">Phones</h2>
+      <hr>
+      <div class="row" id="phoneDIV"></div>
+      <h2 id="tablet">Tablets</h2>
+      <hr>
+      <div class="row" id="tabletDIV"></div>
+      <h2 id="case">Cases-cover</h2>
+      <hr>
+      <div class="row" id="caseDIV"></div>
+    </div>
+
+    <footer class="orange accent-4 center">
+	<hr>
+      <div class="footer-wrapper"><br>
+	  <a class="btn waves-effect white grey-text darken-text-2" href="info.html"> for information</a>
+	 <br>
+	 <hr>
+      </div>
+	  </footer>
+	  <footer class="white accent-4 center">
+	   <hr>
+	  <p class="float-right" style="color:black;font-size:20px;"> Thank you for visiting our website
+      <br>
+	  <div class="row" style="color:black;font-size:20px;"> xiaomi Online Store</div>
+      <img src="img/logo-xiaomi.webp" alt="" style="width:300px;height:80px;">
+      <hr>
+	  </footer>
+	  <footer class="orange accent-4 center">
+       <hr>
+	  <a class="btn waves-effect white grey-text darken-text-2"href="#">Top</a></p>
+	  <hr>
+	  </div>
+    </footer>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="row">
+        <form id="formLogin" autocomplete="off" class="col s12">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input type="text" required id="userName" class="validate">
+            <label form="icon_prefix">User</label>
+          </div>
+         
+          <div class="input-field col s12">
+            <i class="material-icons prefix">fingerprint</i>
+            <input type="password" required id="userPassword" class="validate">
+            <label form="icon_prefix">Password</label>
+          </div>
+
+          <button class="btn waves-effect waves-light" type="submit" name="action"> Submit 
+		  <i class="material-icons right">send</i> </button>
+        </form>
+      </div>
+    </div>
+  </div> -->
+  <!-- Modal End -->
+
+    <!-- Optiona  l JavaScript: jQuery first, then Popper.js, then Bootstrap JS -->
+ <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvcTKaix6Yvo6HppcZGetbYMGWSF1Bw8HfCJo="
+  crossorigin="anonymous">
+  </script>
+-->
+  <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/wow.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.5.4/dist/sweetalert2.all.min.js"></script>
+  <script src="./js/login.js"></script>
+
+ 
+</body>
+
+</html>
+
