@@ -1,8 +1,7 @@
 # e-Commerce
 online store
 
-Hosting URL: https://e-commerce-ee2dc.web.app
-
+Hosting URL: https://online-store-838ac.web.app
 admin login 
 username : admin@mail.com
 password : admin123
